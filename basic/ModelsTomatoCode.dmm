@@ -433,51 +433,9 @@
 					"data": ""
 				},
 				{
-					"id": "2c1ac93b-22a1-4505-95d5-892b1d4cf51b",
-					"name": "frontend",
-					"datatype": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": true,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "93af25d6-ce98-445c-848f-c5e4bc4a4578",
-					"name": "backend",
-					"datatype": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": true,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "55f49d68-4c3c-4fb7-816a-ab89e1a70ced",
-					"name": "devops",
-					"datatype": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": true,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "6ae0746f-5bd7-4014-93cf-8725d63c84b8",
-					"name": "news",
-					"datatype": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
+					"id": "ebb3452b-4cbf-4452-8e8e-185fff4a575a",
+					"name": "categories",
+					"datatype": "6bf0171f-f9aa-4134-9ec2-6c8e6fc89e04",
 					"param": "",
 					"pk": false,
 					"nn": false,
@@ -899,6 +857,63 @@
 			"validationAction": "na",
 			"collation": "",
 			"others": ""
+		},
+		"6bf0171f-f9aa-4134-9ec2-6c8e6fc89e04": {
+			"id": "6bf0171f-f9aa-4134-9ec2-6c8e6fc89e04",
+			"visible": true,
+			"name": "categories",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "a9b47934-d8d1-4adb-a185-bba64aa52ba5",
+					"name": "name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "776e8bc0-8aba-4e90-919b-f877929113e1",
+					"name": "courses",
+					"datatype": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "89446208-852a-42cc-bb46-f33e1762fa59",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
 		}
 	},
 	"relations": {},
@@ -933,7 +948,7 @@
 		"def_validationAction": "na",
 		"def_collation": "",
 		"def_others": "",
-		"lastSaved": "Thu Jun 23 2022 18:46:10 GMT+0100 (Western European Summer Time)",
+		"lastSaved": "Fri Jun 24 2022 08:22:40 GMT+0100 (Western European Summer Time)",
 		"writeFileParam": false
 	},
 	"otherObjects": {},
@@ -952,10 +967,10 @@
 			"diagramItems": {
 				"cc33bb3d-c6eb-4760-bb32-651626c00e02": {
 					"referencedItemId": "cc33bb3d-c6eb-4760-bb32-651626c00e02",
-					"x": 1092,
-					"y": 105,
-					"gHeight": 344,
-					"gWidth": 285,
+					"x": 1090,
+					"y": 117,
+					"gHeight": 379,
+					"gWidth": 295,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": true,
@@ -998,17 +1013,17 @@
 					"referencedItemId": "b8ca6456-9578-4926-bdc0-a6273f2f9dec",
 					"x": 411,
 					"y": 102,
-					"gHeight": 621,
-					"gWidth": 334,
+					"gHeight": 241,
+					"gWidth": 338,
 					"color": "#ffffff",
 					"background": "#03a9f4",
-					"resized": false,
+					"resized": true,
 					"autoExpand": true
 				},
 				"833077f0-8a6d-4595-a8dd-a42e4ac0a006": {
 					"referencedItemId": "833077f0-8a6d-4595-a8dd-a42e4ac0a006",
-					"x": 74,
-					"y": 100,
+					"x": 64,
+					"y": 314,
 					"gHeight": 153,
 					"gWidth": 312,
 					"color": "#ffffff",
@@ -1018,8 +1033,8 @@
 				},
 				"ecf3f340-3b16-472a-8458-6c3bef4070c1": {
 					"referencedItemId": "ecf3f340-3b16-472a-8458-6c3bef4070c1",
-					"x": 77,
-					"y": 264,
+					"x": 67,
+					"y": 485,
 					"gHeight": 45,
 					"gWidth": 177,
 					"color": "#ffffff",
@@ -1057,6 +1072,17 @@
 					"gWidth": 224,
 					"color": "#ffffff",
 					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"6bf0171f-f9aa-4134-9ec2-6c8e6fc89e04": {
+					"referencedItemId": "6bf0171f-f9aa-4134-9ec2-6c8e6fc89e04",
+					"x": 63,
+					"y": 105,
+					"gHeight": 189,
+					"gWidth": 334,
+					"color": "#ffffff",
+					"background": "#ff9800",
 					"resized": false,
 					"autoExpand": true
 				}

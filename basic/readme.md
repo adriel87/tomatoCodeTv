@@ -1,4 +1,19 @@
+---
+author: Adriel Arocha Oronoz
+date: "27-07-2022"
+---
+
 # Modelando para plataforma aprendizaje dev
+
+- [requisitos](#se-solicita-lo-siguiente)
+- [creando](#creando-colecciones)
+- [modelando](#modelando)
+  - [cursos_categorias](#cursoscategorias)
+  - [cursos](#cursos)
+  - [videos](#videos)
+  - [autores](#autores)
+- [Conclusiones](#conclusiones)
+
 
 ##  Se solicita lo siguiente
 
@@ -160,4 +175,6 @@ Es mi primera experiencia modelando algo de verdad, creo que para la iteración 
 creo que para los siguiente desafíos tendré que cambiar varias cosas en varias colecciones.
 
 como hacer una jerarquía en cursos, ser capaz de relacionar videos con las posibles categorías a las que pueda pertenecer, incluir la colección de usuarios para manejar estados algo más complejos.
+
+
 

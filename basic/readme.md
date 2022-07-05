@@ -42,7 +42,7 @@ vamos a definir un poco cada uno y que patrón o patrones decidí usar
 
 ### coursesByAreas
 
-esta colección es la que se va a usar para crear nuestra pagina principal, en este punto he pensado que podríamos usar ***extended ref*** para incluir los datos que nos interesa mostrar por curso y categoría. De esta forma podríamos tener en un solo documento una serie de cursos definidos en un array por categorías.
+esta colección es la que se va a usar para crear nuestra pagina principal, en este punto he pensado que podríamos usar ***subset patern*** para incluir los datos que nos interesa mostrar por curso y categoría. De esta forma podríamos tener en un solo documento una serie de cursos definidos en un array por categorías.
 
 tendríamos algo como esto
 
@@ -76,7 +76,7 @@ Creo que lo ideal para esta colección sera trabajar sobre un documento e ir act
 
 ### cursos
 
-para los cursos también use el ***extended ref*** 
+para los cursos también use el ***subset pattern*** 
 
 
 Ademas tenemos un caso muy similar al anterior en el que necesitamos ciertos datos de otra colección, como podría ser información del autor o cierta información de los videos
@@ -114,7 +114,7 @@ veamos como quedaría nuestro modelo
 
 ### lesson
 
-En este punto solo me hacia falta recuperar cierta informacion de el autor del video asi que volví a usar el ***extended reference*** 
+En este punto solo me hacia falta recuperar cierta informacion de el autor del video asi que volví a usar el ***subset pattern*** 
 
 ```javascript
 {
@@ -132,7 +132,7 @@ creo en futuras iteraciones esta colección es muy susceptible al cambio. Por ej
 
 ### authors
 
-no hay muchas sorpresas también me decante por el patrón de ***extended reference***, en este caso para contener cierta información de los cursos del autor o en los que haya participado.
+no hay muchas sorpresas también me decante por el patrón de ***subset pattern***, en este caso para contener cierta información de los cursos del autor o en los que haya participado.
 
 ```javascript
 {
@@ -172,7 +172,7 @@ Una coleccion con todas las categorias que vayamos necesitando
 
 ## Conclusiones
 
-Es mi primera experiencia modelando algo de verdad, creo que para la iteración básica el tandem de extended reference y schema versioning, me viene muy bien.
+Es mi primera experiencia modelando algo de verdad, creo que para la iteración básica el tandem de subset pattern y schema versioning, me viene muy bien.
 
 creo que para los siguiente desafíos tendré que cambiar varias cosas en varias colecciones.
 
